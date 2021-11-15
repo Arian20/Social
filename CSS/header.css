@@ -4,7 +4,7 @@ body
 	padding: 0px;
 	width: 100%;
 	border:0px;
-	background-color: #d7dbd7;
+	background-color: #FFFFFF;
 	font-family: arial;
 }
 
@@ -42,7 +42,7 @@ body
 {
 	width: 100%;
 	height: 50px;
-	background-color: #009688;
+	background-color: #ff0000;
 	position: fixed;
 	z-index: 9999;
 }
@@ -74,7 +74,7 @@ body
 	border-radius: 8px;
 	font-size: 16px;
 	padding: 10px 20px 10px 40px;
-	background-color: #E1E9EE;
+	background-color: #FFFFFF;
 	border: 0px;
 	position : absolute;
 	top: 5px;
@@ -85,7 +85,7 @@ body
 
 #search:focus
 {
-	width: 420px;
+	width: 300px;
 	outline: 0px
 }
 
@@ -93,7 +93,7 @@ body
 {
 	float: right;
 	/*width: 420px;*/
-	width: 410px;
+	width: 520px;
 	height: 45px;
 	position:relative;
 }
@@ -103,7 +103,7 @@ body
 	margin:0px;
 	margin-top: 3px;
 	height: 42px;
-	padding-left: 40px;
+	padding-left: 5px;
 }
 
 .icon-bar ul li
@@ -120,7 +120,7 @@ body
 	position: absolute;
 	width: 80%;
 	height: 370px;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	right: -4px;
 	top:112%;
 	display:none;
@@ -189,17 +189,17 @@ body
 
 #p3
 {
-	padding-left: 18px;
+	padding-left: 5px;
 }
 
 #p4
 {
-	padding-left: 10px;
+	padding-left: 22px;
 }
 
 #p5
 {
-	padding-left: 4px;
+	padding-left: 17px;
 }
 
 
@@ -252,11 +252,11 @@ body
 {
 	width: 200px;
 	/*height: 100px;*/
-	background-color: #FFFFFF;
+	background-color: #000000;
 	position: fixed;
-	border: 1px solid #B7B7B7;
+	border: 1px solid #d30000;
 	border-radius: 4px;
-	box-shadow: 2px 6px 6px #999999;
+	box-shadow: 2px 6px 6px #e21212;
 }
 
 .leftfixed
@@ -273,7 +273,7 @@ body
 	height: 150px;
 	padding: 25px;
 	/*padding-bottom: 10px;*/
-	border-radius: 50%;
+	border-radius: 20px;
 }
 
 .sidebarleft #sidename
@@ -297,7 +297,7 @@ body
 	font-family: "verdana";
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #525252;
+	color: #ffffff;
 }
 
 #ssn
@@ -320,8 +320,8 @@ body
 	border-radius: 5px;
 	border: 0px;
 	outline: 0px;
-	background-color: #00aeef;
-	color: white;
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
 	text-decoration: none;
 	width: 55px;
 	text-align: center;
@@ -344,7 +344,7 @@ body
 #nosociety
 {
 
-	color: #E91E63;
+	color: #ff0000;
 	font-size: 24px;
 	font-family: "Comic Sans MS";
 	font-weight: bold;
@@ -362,17 +362,18 @@ body
 
 #logout
 {
-	color: #009688;
+	color: #ec1a1a;
 	margin: 2px;
 	margin-top: 18px;
 	text-align: center;
-	background-color: #009688;
+	background-color: #ffffff;
+	border: 1px solid #d30000;
 }
 
 #logout a
 {
 	display: block;
-	color: white;
+	color: rgb(255, 0, 0);
 	font-size: 14px;
 	text-decoration: none;
 	font-weight: bold;
